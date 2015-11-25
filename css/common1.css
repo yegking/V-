@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+
+.font{
+	/*font-weight:bold;粗体*/
+	font-style : normal;/*默认*/
+	width:1177px;
+	height:195px;
+	overflow:hidden;/*不会让汉字出了div*/
+	background-color:#ffffff;
+	
+}
+.top{
+	width:1177px;
+	height:90px;
+	/*border:1px solid yellow;*/
+	
+}
+.table1{
+	background-color:#789ba7;
+	width:1177px;
+	height:40px;
+	font-size:16px;
+	text-align:center;
+	
+	
+}
+.table1 a{
+	text-decoration:none;
+	color:#ffffff;
+	font-weight:bold;
+	
+	
+}
+.td1{
+	background-color:#ffffff;
+	}
+.td1 a{
+	
+	color:#400000;
+	font-weight:bold;
+	
+}
+.table2{
+	background-color:#e1e1e1;
+	width:1177px;
+	
+	font-size:14px;
+	text-align:center;
+	
+	background-size:100% 100%;/*适应表格大小*/
+	background-repeat:no-repeat;/*图片不能重复*/
+	
+	
+}
+
+.table2 td a{
+	text-decoration:none;
+	color:#505050;
+}
+br{
+	line-height:3px;/*设置行与行的宽度*/
+}
+

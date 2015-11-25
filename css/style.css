@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+iframe{
+	font-size:12px;/*字体12px*/
+	
+	width:1200px;
+	margin-left:80px;
+	
+}
+/*下面部分div*/
+.font1{
+	/*font-weight:bold;粗体*/
+	font-style : normal;/*默认*/
+	width:1177px;
+	height:150px;
+	
+	overflow:hidden;/*不会让汉字出了div*/
+	background-color:#E8E8EA;
+}
+/*五个div排版*/
+.a{
+
+	float:left;
+	width:173.2px;
+	height:140px;
+	position:relative; /*生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位*/
+	top:10px;
+	/*border:1px solid yellow;*/
+	/*margin:10px 10px 10px 10px
+	position:relative; left:20px;*/
+	padding-left:60px;/*把里面的文字想左移动60px*/
+	
+
+}
+.a dl a{
+	font-size:medium;
+	/*letter-spacing:8px;//字与字之间的距离。。。*/
+	
+	line-height:25px;	/*行与行之间的距离*/
+
+}
+a{
+	text-decoration:none;
+	color:#757577;
+	
+}
+dt,dd{
+margin:0 auto
+}
+hr{
+/*有一个问题，不能有第四行*/
+	/*搞一个竖线分割*/
+	transform:rotate(90deg);
+	/*height:120px; width:1px; border-left:1px #000 solid;*/
+	
+	margin-left:110px;/*离左边的距离*/
+	margin-top: -40px;/*离下面远一点*/
+	position:absolute;/*使用相对浮动*/
+	
+}
+
+
+/*第一行字体设置*/
+.font3{
+	
+	color:red;
+}
+/*最后的备案元素*/
+.table{
+	margin:auto;
+	/*margin-left:90px;*/
+	
+}
+.table td, .table th{
+	text-align:center;
+	
+	color:#757577;
+}

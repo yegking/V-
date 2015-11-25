@@ -1,1 +1,72 @@
 @CHARSET "UTF-8";
+.font{
+	border:1px solid yellow;
+	font-style : normal;/*默认*/
+	width:1177px;
+	height:760px;
+	
+	overflow:hidden;/*不会让汉字出了div*/
+	background-color:#ffffff;
+	
+}
+.book{
+ border:1px solid #c0c0c0;
+/*background-color:#F2F4DF;*/
+width:200px;/*div*/
+/*margin:50px;外边距会在元素外创建额外的“空白”*/
+text-align:left;
+	background-color:#ffffff;
+	line-height:26px;/*行间的距离*/
+}
+hr{
+	
+	border:1px dotted #808080;
+	align:center;
+	 
+	
+}
+.title{
+	
+color:#000000;
+	 border:0px solid #000000;
+	width:180px;
+    font-size:13px;
+	
+	margin-left:auto; /*居中*/
+	font-weight:bold;/*粗体*/
+	 margin-right:auto;
+/*text-indent:20px;规定文本块中首行文本的缩进*/
+line-height:26px;/*行间的距离*/
+
+/*backgroud-repeat属性值如下.no-repeat,repeat-x,repeat-y
+											no-repeat 不重复填充
+											repeat-x 横向重复填充
+											repeat-y纵向重复填充
+background-repeat:no-repeat;
+	background-position:110px;*/
+}
+
+
+
+
+ul,li{margin:0; padding:0;list-style:none;margin-top:-8px;} 
+ul{margin-top:12px;}
+
+.num1{
+text-indent:0px;/*规定文本块中首行文本的缩进*/
+	/*background-image:url(./image/book_no10.gif);*/
+	/*background-position:10px;/*背景图像的起始位置
+background-repeat:no-repeat;*/
+	line-height:30px;
+	font-size:12px;
+	color:#1a66b3;
+	
+}
+a{
+	text-decoration:none;
+}
+
+.l{
+	float:left;
+	
+}

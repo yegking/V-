@@ -9,7 +9,10 @@
 	background-color:#ffffff;
 	
 }
-.book{
+
+
+.left1{
+	float:left;
  border:1px solid #c0c0c0;
 /*background-color:#F2F4DF;*/
 width:200px;/*div*/
@@ -18,11 +21,51 @@ text-align:left;
 	background-color:#ffffff;
 	line-height:26px;/*行间的距离*/
 }
-hr{
+
+
+.right1{/*右面整体*/
+	float:left;
+	 border:0px solid #ff00ff;
+/*background-color:#F2F4DF;*/
+width:923px;/*div*/
+	height:1060px;
+/*margin:50px;外边距会在元素外创建额外的“空白”*/
+text-align:left;
+	background-color:#ffb0d8;
+	margin-left:50px;
+	
+}
+.rtop{/*右边最上*/
+
+	height:170px;
+ border:1px solid #c0c0c0;
+background-color:#ffffff;
+	
+}
+.rauto{
+	margin-top:10px;
+	height:70px;
+	border:1px solid #c0c0c0;
+	background-color:#ffffff;
+	
+}
+.hr2{
 	
 	border:1px dotted #808080;
 	align:center;
 	 
+	
+}
+.hr1{
+	border:1px solid #ff0000; 
+	width:"95%" ;
+	SIZE:1;
+	align:center;
+	
+}
+.hr3{
+	border:1px dotted #c0c0c0; 
+	width:660px;
 	
 }
 .title{
@@ -81,3 +124,27 @@ a{
 	float:left;
 	
 }
+
+.tbl1{
+	margin-top:10px;
+	color:#c0c0c0;
+	margin-left:10px;
+	
+}
+.tbl2{
+	margin-top:10px;
+	color:#c0c0c0;
+	margin:auto;
+}
+.tbl2 td{
+	width:150px;
+	color:#0000ff;
+	
+}
+.tabl3{
+	
+	/*background-repeat:no-repeat;图片不能重复*/
+	
+}
+
+

@@ -3,7 +3,7 @@
 	border:1px solid yellow;
 	font-style : normal;/*默认*/
 	width:1177px;
-	height:760px;
+	height:1060px;
 	
 	overflow:hidden;/*不会让汉字出了div*/
 	background-color:#ffffff;
@@ -59,11 +59,22 @@ text-indent:0px;/*规定文本块中首行文本的缩进*/
 background-repeat:no-repeat;*/
 	line-height:30px;
 	font-size:12px;
-	color:#1a66b3;
+	color:#808080;
+	
+}
+.num2{
+text-indent:30px;/*规定文本块中首行文本的缩进*/
+	/*background-image:url(./image/book_no10.gif);*/
+	/*background-position:10px;/*背景图像的起始位置
+background-repeat:no-repeat;*/
+	line-height:30px;
+	font-size:12px;
+	color:#808080;
 	
 }
 a{
 	text-decoration:none;
+	color:#808080;
 }
 
 .l{

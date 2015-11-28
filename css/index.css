@@ -1,9 +1,9 @@
 @CHARSET "UTF-8";
 .font{
-	border:1px solid yellow;
+	border:0px solid yellow;
 	font-style : normal;/*默认*/
 	width:1177px;
-	height:1060px;
+	height:1260px;
 	
 	overflow:hidden;/*不会让汉字出了div*/
 	background-color:#ffffff;
@@ -28,24 +28,25 @@ text-align:left;
 	 border:0px solid #ff00ff;
 /*background-color:#F2F4DF;*/
 width:923px;/*div*/
-	height:1060px;
+	height:1380px;
 /*margin:50px;外边距会在元素外创建额外的“空白”*/
 text-align:left;
-	background-color:#ffb0d8;
+	background-color:#ffffff;
 	margin-left:50px;
+
 	
 }
 .rtop{/*右边最上*/
 
 	height:170px;
- border:1px solid #c0c0c0;
+ border:0px solid #c0c0c0;
 background-color:#ffffff;
 	
 }
 .rauto{
 	margin-top:10px;
 	height:70px;
-	border:1px solid #c0c0c0;
+	border:0px solid #c0c0c0;
 	background-color:#ffffff;
 	
 }
@@ -150,5 +151,36 @@ a{
 	width:50px;
 	
 }
-
+.rdown{
+	 border:0px solid #00ff00;
+	height:910px;
+	margin-left:40px;
+	
+	
+}
+.rdiv1{
+	 border:0px solid #00ff00;
+	margin-left:20px;
+	height:210px;
+	width:180px;
+	float:left;
+	margin-top:15px;
+	
+	
+}
+.rdimg1{
+	width:180px;
+	
+	height:160px;
+}
+.rdownd{
+	float:right;
+	margin-top:10px;
+	
+}
+.a1{
+	text-decoration:none;
+	color:#0000ff;
+	
+}
 
